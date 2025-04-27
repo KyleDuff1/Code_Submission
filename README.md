@@ -37,3 +37,7 @@ py -3 -m pip install torchmetrics[image]
 and run:
 py -3 metrics_cifaba.py --gen_folder "cifar a result" --batch_size 64
 You should now see an IS (≫1) and FID for your “CelebA result” images.
+
+
+Unused Model:
+Extra diffusion model that was unable to work with inception and FID score and ultiamtely was not used in any data collection.
